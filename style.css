@@ -1,0 +1,214 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+}
+.right{
+    display: flex;
+}
+.right p {
+    padding: 10px;
+}
+.right p:hover {
+    background: #ccc;
+}
+.nav p {
+    padding: 10px;
+    transition: 1s; color: 
+     letter-spacing: 7px;
+}
+.nav p:hover{
+    background: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+*{
+    margin: 0;
+}
+.nkar1 {
+    height: 600px;
+    background: url(https://www.w3schools.com/w3images/hamburger.jpg);
+    display: flex;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: start;
+    color: #878686;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.rowimg img{
+   width: 80%;
+
+}
+.rowText {
+    width: 35%;
+
+}
+.rowText h1{
+    text-align: center;
+    letter-spacing: 7px;
+}
+.rowText h5{
+    text-align: center; 
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin: 20px;
+    font-weight: normal;
+}
+.rowText p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.nav2{
+   border: 0;
+   border-top: 1px solid #eee;
+   margin: 50px 120px;
+}
+
+.rowText .text2 {
+    color: #757575;
+}
+.rowimg .rowText{
+    width: 100%;
+    height: auto;
+}
+.col h1{
+    font-weight: 400;
+    margin-bottom:  50px; 
+}
+.col{
+    display: flex;
+    justify-content: center;
+}
+.menuRow{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.menuText{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.menuText h4{
+    margin: 7.5px 0;
+    font-size: 20px;
+    letter-spacing: 7px;
+    transition: 1s;
+    color: #000000e9;
+}
+.menuText p{
+    color: #757575;
+    margin: 10px 0 50px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.menuImg{
+    width: 50%;
+}
+.menuImg img{
+    width: 70%;
+
+    display: block;
+}
+.bg{
+    height: 400px;
+    background: url(https://www.w3schools.com/w3images/tablesetting.jpg);
+    display: flex;
+    align-items: end;
+}
+.Contact{
+    width: 100%;
+    
+}
+.Contact h1{
+    text-align: start;
+    font-size: 30px;
+    margin: 10px 0 40px 0;
+    line-height: 1.5;
+}
+.Contact p{
+    text-align: justify;
+    justify-content: space-between;
+}
+.Contact2{
+    width: 100%;
+}
+.Contact2  h3{
+    margin: 20px 0;
+    color: #607b8d;
+    font-size: 18px;
+}
+.inp{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.label{
+    display: block;
+    font: 1rem sans-serif;
+}
+.input,label{
+    width: 100%;
+}
+.nav1{
+    width: 70%;
+    margin: 0 100px;
+}
+.button{
+    width: 150px;
+    margin: 10px;
+    background: #f1f1f1;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 17px;
+    border: none;
+}
+.button:hover{
+    background: #ccc;
+}
+@media only screen and (max-width: 600px) {
+   .wol{
+    display: block;
+  }
+  .nkar1{
+    height: 25vh;
+  }
+  .right{
+    display: none;
+  }
+  .nkar2 img{
+    display: none;
+  }
+  .rowText{
+    width: 100%;
+  }
+  .menuRow{
+    display: block;
+  }
+  .menuText{
+    width: 40vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menuImg{
+    width: 60vh;
+  }
+}
