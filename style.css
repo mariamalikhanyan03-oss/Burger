@@ -14,10 +14,10 @@
 .right p:hover {
     background: #ccc;
 }
-.nav p {
+.nav p{
     padding: 10px;
-    transition: 1s; color: 
-     letter-spacing: 7px;
+    transition: 1s; 
+    letter-spacing: 7px;
 }
 .nav p:hover{
     background: #ccc;
@@ -211,4 +211,9 @@
   .menuImg{
     width: 60vh;
   }
+      .nav1 {
+        width: 60vh;
+        padding: 0 20px;
+        margin: 0;
+    }
 }
